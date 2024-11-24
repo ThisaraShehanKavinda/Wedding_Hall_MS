@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.2.1
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Jun 09, 2023 at 03:17 PM
+- Server version: 10.4.28-MariaDB
+- PHP Version: 8.2.4
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="resource_allocation_ms" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="admin">
+                ;
+            </pma:table>
+            <pma:table name="customer">
+                ;
+            </pma:table>
+            <pma:table name="hall">
+                ;
+            </pma:table>
+            <pma:table name="hall_book">
+                ;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'resource_allocation_ms'
+    -->
+    <database name="resource_allocation_ms">
+<div class="alert alert-danger" role="alert"><h1>Error</h1><p><strong>Static analysis:</strong></p><p>1 errors were found during analysis.</p><p><ol><li>An expression was expected. (near "FROM" at position 8)</li></ol></p><p><strong>SQL query:</strong>  <a href="#" class="copyQueryBtn" data-text="SELECT  FROM `resource_allocation_ms`.`admin`">Copy</a>
+<a href="./url.php?url=https%3A%2F%2Fdev.mysql.com%2Fdoc%2Frefman%2F8.0%2Fen%2Fselect.html" target="mysql_doc"><img src="themes/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a><a href="index.php?route=/database/sql&sql_query=SELECT++FROM+%60resource_allocation_ms%60.%60admin%60&show_query=1&db=resource_allocation_ms"><span class="text-nowrap"><img src="themes/dot.gif" title="Edit" alt="Edit" class="icon ic_b_edit">&nbsp;Edit</span></a>    </p>
+<p>
+SELECT  FROM `resource_allocation_ms`.`admin`
+</p>
+<p>
+    <strong>MySQL said: </strong><a href="./url.php?url=https%3A%2F%2Fdev.mysql.com%2Fdoc%2Frefman%2F8.0%2Fen%2Fserver-error-reference.html" target="mysql_doc"><img src="themes/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</p>
+<code>#1064 - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near &#039;FROM `resource_allocation_ms`.`admin`&#039; at line 1</code><br></div>
